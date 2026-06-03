@@ -13,8 +13,8 @@
         }
         .business-card{
             border-radius: 25px;
-            width: 400px;
-            height: 250px;
+            width: min(100vw, 4in);
+            height: calc(min(100vw, 4in)*0.625);
             background-color: #e6e4c9;
             padding: 20px;
             position: absolute;
@@ -29,6 +29,7 @@
             font-family: Arial;
         }   
         .title-text{
+            margin-top: 0;
             color: rgb(148, 69, 0);
             font-weight: bold;
             margin-bottom:10px;
